@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+</body>
+</html>
+<script>
+
+//但这种实现方式有着不少缺陷：
+//
+//    要增加更多形状的周长计算时，必须改动computePerimeter函数，可扩展性差；
+//    算法集中在computePerimeter函数，随着形状越来越多，这个函数会越来越庞大，最终变得难以维护；
+//    computePerimeter通过shape.type判定形状类型，但如果type属性值错误（如拼错或大小写错误），就无法计算出正确的周长值
+
+
+var rectangle = {
+    name: '长方形1',
+    type: 'rectangle',
+    length: 5,  // 长
+    width: 10   // 宽
+};
+var square = {
+    name: '正方形1',
+    type: 'square',
+    length: 5  // 边长
+};
+var circle = {
+    name: '圆形1',
+    type: 'circle',
+    radius: 5  // 半径
+};
+
+
+var result = computePerimeter(rectangle);
+alert(result);
+
+function computePerimeter(shape) {
+    var result;
+    switch (shape.type) {
+        case 'rectangle':
+        	// 矩形周长：(长+宽)*2
+        	result = (shape.length + shape.width) * 2;
+        	break;
+        case 'square':
+        	// 正方形周长：边长*4
+        	result = shape.length * 4;
+        	break;
+        case 'circle':
+        	// 圆形周长：2*PI*半径
+        	result = 2 * Math.PI * shape.radius;
+        	break;
+    }
+
+    return shape.name + '的周长是' + result;
+}
+
+
+
+var sharp = function(name){
+	this.name = name;
+}
+sharp.prototype = {
+		setName : function(){
+				return this.name;
+			}
+		,zhouchang : function(){
+			}
+	};
+
+
+var Rectangle = function(name,length,width){
+	sharp.call(this, name);
+	this.length =length;
+	this.width = width;
+}
+
+Rectangle.prototype = new sharp();
+Rectangle.prototype.zhouchang = function(){
+	 return (this.length + this.width) * 2;
+}
+
+
+function computezhouchang(shape) {
+    alert( shape.getName() + '的周长是' + shape.zhouchang() );
+}
+
+
+
+
+var rectangle = new Rectangle('矩形',10,20);
+computezhouchang(rectangle);
+
+</script>
