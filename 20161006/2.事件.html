@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #box1{
+            width: 200px;
+            height: 200px;
+            background-color: aliceblue;
+        }
+        #box2{
+            width: 100px;
+            height:100px;
+            background-color: pink;
+        }
+        button{
+
+        }
+    </style>
+</head>
+<body>
+<div id="box1">
+    <div id="box2">
+        <button id="btn">按钮</button>
+    </div>
+
+</div>
+<script>
+    var dom = document.getElementById("btn");
+    var box1 = document.getElementById("box1");
+    var box2 = document.getElementById("box2");
+    btn.addEventListener('click',function(e){
+//        var e = e?e:window.event;
+        var ele = e.srcElement||e.target;//获取目标元素
+        console.log(e);
+        console.log(window.event);
+     console.log("btn按钮被点击了1");
+        e.stopPropagation();//chrome  IE9+以上  阻止事件冒泡
+        e.cancelBubble=true;
+     });
+     box1.addEventListener('click',function(){
+     console.log("box1按钮被点击了1");
+     });
+     box2.addEventListener('click',function(){
+     console.log("box2按钮被点击了1");
+     });
+   /* box2.attachEvent('onclick',function(){
+        console.log("box2按钮被点击了1");
+    });
+    btn.attachEvent('onclick',function(){
+        console.log("btn按钮被点击了1");
+    });
+    box1.attachEvent('onclick',function(){
+        console.log("box1按钮被点击了1");
+    });
+*/
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    function fun(){}
+    fun.prototype={
+        info:{
+            name:'zhangsan',
+            age:'18'
+        }
+    }
+    var fun1 = new fun();
+    fun1.info.name="fun1name";
+
+
+    var fun2 = new fun();
+    fun2.info.name="fun2name";
+    console.log(fun1.info.name);
+    console.log( fun2.info.name);
+
+</script>
+</body>
+</html>

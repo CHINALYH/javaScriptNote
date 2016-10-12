@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //1.使用构造函数创建属性:默认值,传参,动态添加,混合模式
+    function Person(age){
+        this.name="默认值";//默认值
+        this.age=age;//传参
+    }
+    var p1 = new Person();
+    p1.gender="动态添加的数据";
+    //最常用的是混合模式,即有默认值  又有传参  又有动态添加
+
+
+    //3.属性的取值和设置器  get  set  数值判断  打折
+    //取值设置  返回格式化的日期
+    //日期格式转化的工具方法
+
+    //4.共有属性 实例化后外部的人可以访问到
+
+    //私有属性
+    function  Person(){
+        var name="张三";//实例化的对象  无法访问这个属性
+        this.name="wangwu";//共有的属性实例化后外部可以进行访问
+    }
+
+    //5.最小原则
+    //this.config={}//保存当前对象中可能用到的临时变量
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //java  先写一个类 在类中 实现属性与方法
+    //javascript 用过构造函数来创建对象
+
+    //JS是一门基于对象的多泛式语言
+    //既可以实现面向过程开发
+    //可以使用面向对象的方式进行开发
+    //面向过程:关注于过程,基于封装的函数
+
+    //面向对象:关注点变为了对象
+    //函数封装了过程
+
+    var me = {
+        BeijingToShanghai: function () {
+            this.use12306();
+            this.buyTrain();
+            this.fromBeiToShang();
+        },
+        use12306: function () {
+            console.log("打开12306app");
+        },
+        buyTrain: function () {
+            console.log("购买10.3火车票!");
+        },
+        fromBeiToShang: function () {
+            console.log("乘坐火车从上海抵达北京")
+        }
+    };
+    me.BeijingToShanghai();
+</script>
+</body>
+</html>

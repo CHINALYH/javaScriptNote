@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var foo;
+    try {
+        foo();//将可能出错的代码放在这里
+    } catch (exp) {
+    console.log(exp);
+    console.log(exp.message);
+    }
+
+
+    foo = function () {
+        console.log("foo函数执行了");
+    }
+    //异常捕获,代码出现异常之后,进行手动的捕捉
+//异常捕获的使用场景 一段代码可能发生错误,这个错误暂时无法解决,为了保障之后的代码
+    //可以成功的执行,就先将错误捕获  try  catch
+
+    //手动抛出异常
+    //uncaught error未捕获的异常
+    throw new Error('参数不是一个合法字符串');
+
+
+</script>
+</body>
+</html>

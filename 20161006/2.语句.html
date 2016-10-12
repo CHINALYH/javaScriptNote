@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*break contine  return false*/
+    //break :跳出当前循环语句
+    //contine:结束当前循环,继续下一次循环
+    /* for(var i=0;i<4;i++){
+     for(var j=0;j<3;j++){
+     if(j=1){
+     console.log(j);
+     //                     continue;
+     }
+     }
+     }*/
+    /*   switch (num){
+     case "k":
+     console.log("k");
+     break;
+     case '10':
+     case '5':
+     console.log("输入的是数字");
+     break;
+     default:
+     console.log("输入的不合法");
+     }*/
+
+    //for  in 循环遍历
+
+    var obj = {name: "小明", age: 18};
+    for (var key in obj) {
+        console.log(obj[key]);
+    }
+
+    /*函数声明-->函数声明提前  函数表达式-->变量声明提前*/
+    //??
+    var fnx = function () {
+        console.log("函数表达式执行了");
+    }
+    function fnx() {
+        console.log("函数声明执行了");
+    }
+
+
+    fnx();
+
+    //???
+    function bar() {
+//        foo=10;
+        function foo() {
+        }
+        return foo;
+    }
+    console.log(typeof bar());
+
+    //一个函数没有返回值  就是undefined
+    var foo=1;
+    function bar(){
+        function foo(){}
+        foo=10;//给局部变量foo赋值,foo的值由函数变为了数字
+        return;//没有返回值就是undefined
+    }
+    //console.log中的执行   会影响吗???
+    console.log(typeof bar());//undefined
+    console.log(foo);
+
+
+
+    var foo = function bar(name){
+        console.log("hello"+name);
+    };
+    foo("world");
+    bar();//无法打印 bar  is not  defined
+/*在函数内部,bar可以被访问,此时的bar就相当于foo,相当于函数本身*/
+    //只能通过打印foo.toString()从而找到bar
+
+</script>
+</body>
+</html>
