@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //1.使用Object
+    var obj1 = new Object();
+    obj1.name = "zhansan";
+    //2.使用字面量
+    var obj2 = {
+        name: "lisi",
+        age: 18,
+        sex: "男"
+    };
+    console.log(obj2.name);//lisi
+    /*json对象转化为字符串*/
+    var obj2Str = JSON.stringify(obj2);
+    console.log(obj2Str);
+    /*字符串转化为json对象*/
+    var objJson = JSON.parse(obj2Str);
+    console.log(objJson);
+
+
+    //3.1使用构造函数
+    function CreateObj() {
+        this.name = "wangwu";
+    }
+    //3.2基于构造函数的第二种方法
+    var arr = function (name) {
+        this.name = name;
+        this.name2 = {name: "李四", age: "20"};
+        this.attack = function () {
+            console.log("攻击的方法");
+        }
+    };
+    var objArr = new arr();
+    console.log("objArr" + objArr);
+
+    var obj3 = new CreateObj();
+    //4.1工厂模式:封装一个函数,这个函数就是用来创建对象的
+    function createObj() {
+        var obj = new Object();
+        obj.name = "xiaobai";
+        obj.age = 18;
+        obj.sex = "女";
+        return obj;
+    }
+    //4.2工厂模式的改进,上面的工厂创建的对象全是一样的,如果有些属性我们要自定义
+    function createMyObj(name) {
+        var obj = new Object();
+        obj.name = name;//自定属性
+        obj.age = 19;
+        obj.sex = "nan";
+        return obj;
+    }
+
+    //5.原型创建
+    function Person() {
+    }
+    Person.prototype.name = "xiaoqing";
+    Person.prototype.age = "18";
+    //6.构造+原型
+    function Cat(name) {
+        this.name = name;//实例对象向不相同的属性
+    }
+    Cat.prototype.from = 'china';//实例对象共有的属性
+
+
+    //7拷贝模式
+
+    var boy = {
+        name: "xiaohai",
+        age: 19,
+        sex: 'nan'
+    };
+    function extend(target, source) {
+//        for(var i=0;i<source.length;i++){
+        for (var i in source) { //注意只能使用for in 进行遍历
+            target[i] = source[i];
+        }
+        return target;
+    }
+    var newBoy = extend({}, boy);
+    newBoy.pos = "hello";
+    console.log(newBoy.age);
+
+    //拷贝创建对象的高级使用方式
+    function hightExtend() {
+        var key = 0, i = 0, len = arguments.length;
+        target = null;
+        if (len == 0) {
+            return false;
+        } else if (len == 1) {
+            return arguments[0];
+        } else {
+            i++;
+            target = arguments[0];
+            for (; i < len; i++) {
+                for (key in arguments[i]) {
+                       target[key]=arguments[i][key];//把后面传入的对象遍历一下,但遍历每一个对象的属性
+                    //添加到target元素上
+                }
+            }
+        }
+
+
+    }
+
+</script>
+</body>
+</html>

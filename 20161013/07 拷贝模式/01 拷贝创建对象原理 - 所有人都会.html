@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+    //-------------------------拷贝创建对象核心代码--------------------------
+    function extend(tar,source) {
+        //遍历对象
+        for(var i in source){
+            tar[i] = source[i];
+        }
+        return tar;
+    }
+
+
+    //游戏随机生成名字
+       var boy = {
+        name:'无忌'
+        ,image:'男性头像'
+        ,age:20
+        ,sex:'男'
+    };
+
+    var gril = {
+        name:'风晴雪'
+        ,age:18
+        ,image:'女性头像'
+        ,sex:'女'
+    };
+
+
+    var zuixiake = extend({}, boy);
+    zuixiake.name='醉侠客';
+    alert(zuixiake.name);
+    alert(zuixiake.sex);
+</script>

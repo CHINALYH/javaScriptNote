@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+
+    //extend2实现的功能：extend(target,obj1,obj2,obj3)
+
+
+   function extend () {
+        var key,i = 0,len = arguments.length,target = null,copy;
+        if(len === 0){//len是实参的个数
+            return;
+        }else if(len === 1){
+            target = this;
+        }else{
+            i++;
+            target = arguments[0];//第一个是我们需要返回的饿淡化
+        }
+        for(; i < len; i++){
+            for(key in arguments[i]){//循环遍历每一个对象
+                copy = arguments[i][key];
+                target[key] = copy;
+            }
+        }
+        return target;
+    }
+
+    function extend2(){
+        for (var p in source) {
+            if (source.hasOwnProperty(p)) {
+                target[p] = source[p];
+            }
+        }
+
+        return target;
+    }
+
+
+    //游戏随机生成名字
+    var boy = {
+        name:'无忌'
+        ,image:'男性头像'
+        ,age:20
+        ,sex:'男'
+    };
+    //技能名称，等级，伤害值，需要的魔法
+    var technology = {tname:'亡灵复活',tlevel:10,tstrength:3000,tmagic:30};
+    var shenqi = {sname:'霜之哀伤',slevel:30,sstrength:3000}
+    //当这个人有了穿上盔甲，圣衣，六神合体，戴上魔法戒指之后，自动也拥有一个技能
+
+    //第一种用法
+    var zuixiake = extend({}, technology,shenqi);
+    zuixiake.name='醉侠客';
+    alert(zuixiake.name);
+    alert(zuixiake.tname);
+    alert(zuixiake.sname);
+
+
+    //第二种用法
+    extend(boy,technology,shenqi);
+    alert(boy.name);
+    alert(boy.tname);
+    alert(boy.sname);
+
+</script>

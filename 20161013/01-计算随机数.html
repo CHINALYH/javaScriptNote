@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function getRandom(){
+        return Math.random();
+    }
+
+//    for (var i = 0; i < 10; i++) {
+//        console.log(getRandom());
+//    }
+
+    function getRandom2(){
+        var random=Math.random();
+        return function(){
+            return random;
+        };
+    }
+    var result=getRandom2();
+    //由于执行了getRandom2函数，所以开辟了一个getRandom2的作用域(f1)
+    console.log(result());//1次结果
+    //          要执行result函数，result函数引用的random变量是上一级作用域（f1）里面定义的
+    console.log(result());//跟上次执行访问的都是同一个作用域中的变量
+    //          要执行result函数，result函数引用的random变量是上一级作用域（f1）里面定义的
+    result=getRandom2();
+    //由于执行了getRandom2函数，所以开辟了一个getRandom2的作用域(f2)
+    console.log(result());
+    //          要执行result函数，result函数引用的random变量是上一级作用域（f2）里面定义的
+    console.log(result());
+    //          要执行result函数，result函数引用的random变量是上一级作用域（f2）里面定义的
+    console.log(result());
+    //          要执行result函数，result函数引用的random变量是上一级作用域（f2）里面定义的
+
+    //每一次函数执行都会开辟一个独立的作用域
+    function fn(){
+        var age=10;
+    }
+    fn();//作用域1
+    fn();//作用域2
+    //对同样的函数执行多次，会开辟多个独立作用域，并且这些作用域互不干扰
+</script>
+</html>
