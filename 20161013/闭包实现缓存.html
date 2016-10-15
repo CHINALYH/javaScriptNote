@@ -5,6 +5,24 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    //利用闭包实现缓存
+    var cacheManager=(function(){
+        var cacheObj={};
+        return {
+            set:function(k,v){
+                cacheObj[k]=v;
+            },
+            get:function(k){
+                return cacheObj[k];
+            }
+        }
 
+    })();
+
+    cacheManager.set("name","xiaoshi");
+    console.log(cacheManager.get("name"));
+
+</script>
 </body>
 </html>

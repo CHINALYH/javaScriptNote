@@ -5,6 +5,19 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    if(true){
+        function foo1(){
+            console.log(foo1);
+        }
+    }else{
+        function foo2(){
+            console.log(foo2);
+        }
+    }
+//在ff.chrome中打印结果为f1,在旧版本中打印结果为f2
+//规则规范,不允许在语法块中声明函数
+</script>
 
 </body>
 </html>
