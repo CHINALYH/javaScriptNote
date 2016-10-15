@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li>aaa</li>
+    <li>bb</li>
+    <li>ccc</li>
+    <li>ddd</li>
+    <li>eee</li>
+</ul>
+</body>
+<script>
+    var list = document.getElementsByTagName('li');
+    for (var i = 0; i < list.length; i++) {
+        //希望每一次绑定的时候，就保存一下当前的索引
+        // 多次绑定就保存多个索引——>利用闭包，保存多个数据：让外层函数执行多次
+        list[i].onclick = (function () {
+            var j=i;
+            return function(){//内层函数由浏览器帮助我们调用的
+                alert(list[j].innerHTML);
+            }
+
+        }());//调用了5次，外层函数调用了五次，就会产生5个独立的作用域，这几个作用域中的j变量的值都不一样
+    }
+    //第一次执行list[0].onclick=function(){};该函数的上级作用域f1——>j=0
+    //第一次执行list[1].onclick=function(){};该函数的上级作用域f2——>j=1
+    //第一次执行list[2].onclick=function(){};该函数的上级作用域f3——>j=2
+    //第一次执行list[3].onclick=function(){};该函数的上级作用域f4——>j=3
+    //第一次执行list[4].onclick=function(){};该函数的上级作用域f5——>j=4
+
+    //结论：
+    //闭包保存一个数据，让外层函数执行一次
+    //闭包保存多个数据，让外层函数执行多次
+</script>
+</html>

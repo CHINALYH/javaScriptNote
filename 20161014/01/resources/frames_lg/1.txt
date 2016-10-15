@@ -1,0 +1,71 @@
+        :G  E   ;;;;;;;  ,ijD:,           .,ii#:.  LLLLLLL: i #  L   D fjjjf
+       GD#DfGLf tGfiLfi .tW.L.E,          ;jL # #   :L:D:.  .tWKKWK, ,D:jjj:
+        #  #.D:  j, t;  jD#DWEDD          DEKD#DDL ;LDtKt#  fW#itEt  : tfjLt
+        ##KK W  fDLfDGf   # t;::           ,L K t  ,KKKKKW  . fG     D;jLjLj
+        # G:fW  :fi:jt: ,L##,j#           tD##L;K  fjDDjjj; WKW#KKK; ;,Wi#iW
+        K.f #:   K  t;  ::# ,# L  ,f      ,;f fK t .jG.:#    fW #KL  ;,#:#.W
+       jttf#t#i jK  t;   :WKGW;#  ,K      .if#t#;f ..j#WD,  K,ED:WG. ##jjtjt.
+       : ,.:  : f   ,:   t:   f.  :,      .i    f  ;t:   i    i   :  . :,,,,
+                                       :tLEK###WEGt.
+                                   :fK###############L:
+                                 :E####Efi:.    .:iLW##Wt
+                               ,K###L:               :G###;
+                              D###t                     tW#E        .;tffti:
+                            ,###i                         L#Wi    jKWKKKWWWWKKDi
+                           L##D                            :K#G iEEt:.    .;fDWWWE,
+                         ;##D                                .W#f                fW#Wi
+                        ,##f                                   K#i                 iW#D
+                       .##t                                     K#i        f:;:      fWW:
+                       W#L                                       ##.       tKWWG:     :W#i
+                      D#K                                        :#W        if.ED      .W#;
+                     i##                                          t#L       LGD#D        W#.
+                     ##:                       :ttfLf;             ##       L##D      ij :##
+                    f#L                       jWL...iDD            ,#f       t,      ;### i#D
+                    ##   :ti,                tK,      GE            #W               :###t D#i
+                   ;#L :EW#LEK;              KL  GDi   W;           L#:               j##.  ##
+                   K#.,KW;   LK:            ;W.,####K  GL           .#G                     ;#L
+                  .WE WK iLi  KK            LE ######t fD            ##                      W#
+                  ,#tfK.E###D tK     :jDWL  DG:######D fE            L#.                     ;#f
+                  f#.KD ##### :W:  .KEDtLK: GD:######G DG            ;#;                      ##
+                  D# KG.#####::W:   ff   WD iW ######: Wi            :#j                  t   L#,
+                  D# KE W####.:W:   .Wi  DW. Wi:####t LK             .#L                  LKi :#f
+                  DK tK;.###D iW.    LW  ,#t jW, tj. tKi              #D                   j.  #K
+                  LK  EKt t;  KK     .Kj  WK  LWL..:GKj               #D                       EW
+                  tW   DKEt:,KW:      KK  D#   ;KWWWK;                #D                       G#.
+                  :W:   iKWWKW:       t#: t#;    ,;:                 :#L                 ,,    L#.
+                   Ki     :;,         :#j .#L                        ,#t                 :     DW
+                   fD                  #D  #W                        fW:                       #K
+                    E                  #W:LWK                        KK                       .#D
+                    tf                 ####D;                       ,#f                       f#i
+                     L.                jKG:                     .   W#                       .#K
+                      j                                      .GKW#DfKt                       K#;
+                       ;                                    .KWGfK##DLGi                    L#G
+                       .,                                   LK    ##jjDWW:                 L#K
+                     .;fGi                                  D.    KW   .KW                G#W
+              :tDEK####WG;i                                DL     EW    t#,             ,K#K
+             :#####WELi tKWK                               W;      #f   ;#;           :D##f
+             :#K.       Kf.KK                              WD      #G   f#,         ,D##K:
+              D#        K, ,K;                             E#f     #E   ##        ;KKWE,
+               KW:      K,  WD                             .###KGGD#L  ,#E         G,
+               .##G     Kt  DK                              .E######:  K#:         K
+                :W##G,  Ef  LK                                 :ii;#W ,#W         ;K
+                  iW#Kj,GE  DD                                     W###K,         ED
+                    ::fKW###WG:                                    DfD,.         .Kt
+                        .;##t                                     ,E             LK.
+                         L#t                                      ED             #D
+                        ,##                                      :K;            D#,
+                        W#t                                      KW            :#K
+                       i##                                      f#j            W#,
+                       ##L                    LD:              :#K            j#E
+                      ,##.                   EK#W.            .##fL;         .##.
+                      W#K                   ;K, KE           .W#WKDKf        ##f
+                      ##i                   DK  fW          .##WW. fW:      K##
+                     :##.                   EG  tW         .##EEf   KL     G##:
+                     .##:                   KD  :E        :##W K;   DE    j##f
+                      D#t          :fDEKDLD,LK           t##W  Kt   GK   i##K
+                      :#f       ,;fi.  ,tLDi:#:        :K##D   GD   GW  j###
+                     :##i     .DD:          :#E      ;K###jLj; :Wi  DD L###
+                     G#W      Dj            .KE   :D####D. :ti  ,D, : E##W
+                     G#      Gj              fKKKL;W##L:         ;t  tW#G
+                      LLLi:.jj                iLf                 tDKG:.
+                          .,                                       ..

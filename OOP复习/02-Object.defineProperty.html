@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    //ES5诞生的
+    var o1={};
+    //添加了一个name属性，值为"高通"
+    Object.defineProperty(o1,"name",{
+        value:"高通"
+    });
+
+    //添加了一个不可枚举属性，值为"170"
+    Object.defineProperty(o1,"length",{
+        enumerable:false,
+        value:"170"
+    });
+
+    //添加一个不可使用赋值运算符的属性
+    Object.defineProperty(o1,"age",{
+        writable:false,
+        value:18
+    });
+    o1.age=30;
+    console.log(o1.age);//18
+
+    //定义一个不可被删除的属性
+    Object.defineProperty(o1,"color",{
+        configurable:true,//值为true表示该属性可以被删除，值为false表示该属性不可被删除
+        value:"黄种人"
+    });
+    //定义一个只读(只能获取值)属性
+    Object.defineProperty(o1,"number",{
+        get:function(){
+            return 30;
+        }
+    });
+    //定义一个只写属性
+    Object.defineProperty(o1,"gender",{
+        set:function(v){
+            console.log(v);
+        }
+    });
+
+
+</script>
+</html>
