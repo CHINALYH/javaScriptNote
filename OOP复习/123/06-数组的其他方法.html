@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    //数组的方法经常被伪数组对象所借用
+    //1、需求：将一个伪数组转换为真数组：slice
+    var arr = [1, 3, 5];
+    arr.slice(1);//[3,5]
+    var result = arr.slice();//不给slice方法传递参数会将数组整个输出
+
+    var obj = {0: "范明", 1: "小沈阳", length: 2};
+    var result2 = [].slice.call(obj);//["范明","小沈阳"]
+
+    var result3 = [].slice.call(obj, 1);//["小沈阳"]
+
+    //2、需求：删除伪数组里面第三个元素：同样借用数组的方法来删除
+    var obj2 = {0: 5, 1: 10, 2: 15, length: 3};
+    [].splice.call(obj2,2,1,50,500,5000);
+    //Array.prototype.splice.call(obj2,2,1,50,500,5000);
+</script>
+</html>

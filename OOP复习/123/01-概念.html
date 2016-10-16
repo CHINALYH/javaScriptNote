@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    //上下文模式：根据用户传递的参数产生不同的结果
+    //实现方式：call/apply：这两个都是定义在Function.prototype.call——>目的：任何函数都可以访问到call/apply
+    //call方法的第一个参数表示（本次调用该函数，）函数内部的this的值
+    function fn(){
+        console.log(this.name);//张三
+    }
+    fn();//函数调用模式——>this指向window window自带一个name属性：""
+    fn.call({name:"张三"});
+
+    var o={};
+    fn.call(o);//本次调用，fn函数内部的this的值指向o对象
+    //——>打印结果：undefined（一个对象中访问不到某个属性的时候，值就是undefined）
+
+
+
+    //console.log(fn.call===Function.prototype.call);
+    //console.log(fn.apply===Function.prototype.apply);
+
+
+//    var arr=[1,3,5];
+//    arr.toString();//Array.prototype
+//    arr.indexOf();
+//    arr.hasOwnProperty("length");//Object.prototype
+</script>
+</html>

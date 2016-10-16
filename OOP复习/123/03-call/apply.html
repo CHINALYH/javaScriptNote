@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function foo(){
+        console.log(this.age);
+    }
+    var o={age:10};
+    //call方法的第一个参数表示本次执行foo函数里面的this的值
+    foo.call(o);//——>仿佛是一次方法调用模式
+
+    //call方法的第一个参数如果传递null的时候，foo函数里面的this的值将会变成window
+    foo.call(null);//——>仿佛是一次函数调用模式
+
+    //call方法的第一个参数还可以是数字、字符串、布尔值这些基本数据类型
+    foo.call(3);//foo函数内部的this的值——>数字3转换为对应的基本包装类型：Number类型
+
+    //——>以上调用可以无缝的使用apply来调用
+    //call方法的第一个参数表示本次执行foo函数里面的this的值
+    foo.apply(o);//——>仿佛是一次方法调用模式
+
+    //call方法的第一个参数如果传递null的时候，foo函数里面的this的值将会变成window
+    foo.apply(null);//——>仿佛是一次函数调用模式
+
+    //call方法的第一个参数还可以是数字、字符串、布尔值这些基本数据类型
+    foo.apply(3);//foo函数内部的this的值——>数字3转换为对应的基本包装类型：Number类型
+</script>
+</html>

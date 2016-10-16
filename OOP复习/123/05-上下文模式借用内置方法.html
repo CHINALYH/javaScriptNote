@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    //数组里面的push方法实现的功能：往数组里面添加一个元素
+    var arr=[1,3,5];//{0:1,1:3,2:5,length:3}
+    arr.push(10);//{0:1,1:3,2:5,3:10,length:4}
+
+    //伪数组
+    var o={0:10,length:1};
+//    o[1]=20;
+//    o.length++;
+//
+//    o[2]=30;
+//    o.length++;
+//
+//    o[3]=50;
+//    o.length++;
+
+    //借用数组的push方法：首先需要访问到push方法
+    //使用场景1、借用数组的push方法往伪数组里面添加元素
+    [].push.call(o,10,30,50,70,80,100);
+    [].push.apply(o,[10,30,50,70,80,100]);
+
+    //使用场景2：借用数组的push方法往数组中添加多个元素（这多个元素在一个数组中）
+    var arr1=[1,3,5];
+    var arr2=[10,20,30];
+    //要将arr2中的元素依次添加到arr1中
+//    for (var i = 0; i < arr2.length; i++) {
+//        arr1.push(arr2[i]);
+//    }
+    //[].push.call(arr1,arr2);//——>往arr1中添加一个元素，该元素是一个数组
+
+    [].push.apply(arr1,arr2);//——>往arr1中添加了多个元素
+    //——>push方法内部通过隐式迭代的方式添加多个元素
+
+</script>
+</html>

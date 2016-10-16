@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function fn(){
+        for (var i = 0; i < arguments.length; i++) {
+            console.log(arguments[i]);
+        }
+    }
+    //利用call方法来调用fn函数的时候，如果需要传递实参，将实参作为call方法的的第二个参数开始依次传递
+    fn.call(null,1,3,5);//call方法的第二个参数是fn方法的第一个实参，第三个参数是fn方法的第二个实参
+
+    fn.apply(null,[1,3,5]);//apply方法的第二个参数是一个数组对象，这个数组中第一个元素是fn的第一个实参，数组的第二个元素是fn的第二个实参。。。
+    //fn.apply(函数内部的this的值，[实参1，实参2。。。实参n])
+
+
+
+    //面试题：call/apply方法有什么异同？
+    //1、相同点：a、他们都是Function.prototype对象中定义的方法
+    //           b、第一个参数都是表示函数内部的this的值
+    //2、不同点：如果需要给函数传递参数的时候，利用call方法，将函数的参数从第二个参数开始依次排开
+    //       利用apply方法，apply方法的第二个参数是一个数组对象，数组的第一个参数表示函数的第一个实参，依次以此类推
+</script>
+</html>
