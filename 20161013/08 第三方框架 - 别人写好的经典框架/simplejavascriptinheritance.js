@@ -42,23 +42,18 @@
                 })(name, prop[name]) :
                 prop[name];
         }
-
         // The dummy class constructor
         function Class() {
             // All construction is actually done in the init method
             if ( !initializing && this.init )
                 this.init.apply(this, arguments);
         }
-
         // Populate our constructed prototype object
         Class.prototype = prototype;
-
         // Enforce the constructor to be what we expect
         Class.prototype.constructor = Class;
-
         // And make this class extendable
         Class.extend = arguments.callee;
-
         return Class;
     };
 })();

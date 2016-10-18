@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //创建10个不重复的随机数
+    function random(min,max){//判断用户输入的参数个数
+        //验证用户输入
+        if(max===undefined){//如果用户只传递一个参数
+            max=min;
+            min=0;
+        }
+        return parseInt((max-min)*Math.random()+min);
+    }
+    var arr=[];
+    while(arr.length<10){
+        var num = random(10);
+        if(arr.indexOf(num)===-1){
+            arr.push(num);
+        }
+    }
+    console.log(arr);
+//    var arr=[];
+//    for(var i=0;i<10;){
+//        var temp={
+//            x:random(1000),
+//            y:random(1000)
+//        };
+//        if(arr.map(function(v){return v.x}).indexOf(temp.x)!==-1){
+//            arr.push(temp);
+//            i++;
+//        }
+//    }
+//    console.log(arr);
+
+
+
+
+
+
+</script>
+</body>
+</html>

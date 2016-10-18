@@ -5,6 +5,20 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    function fn(){
+        console.log("我是fn函数");
+        return {
+            name:"zhangsan",
+            setName:function(){
+                console.log("我是内部函数");
+            }
+        }
+    }
+    console.log(fn());//会打印  我是fn函数   fn函数没有返回值 所以还会打印undefined
 
+
+
+</script>
 </body>
 </html>

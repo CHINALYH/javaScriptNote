@@ -23,26 +23,33 @@
         };
     }
     var result=getRandom2();
+    console.dir(new getRandom2());
+    console.dir(result);
+    console.dir(new result());
     //由于执行了getRandom2函数，所以开辟了一个getRandom2的作用域(f1)
     console.log(result());//1次结果
     //          要执行result函数，result函数引用的random变量是上一级作用域（f1）里面定义的
-    console.log(result());//跟上次执行访问的都是同一个作用域中的变量
-    //          要执行result函数，result函数引用的random变量是上一级作用域（f1）里面定义的
-    result=getRandom2();
+
+    result2=getRandom2();
     //由于执行了getRandom2函数，所以开辟了一个getRandom2的作用域(f2)
-    console.log(result());
-    //          要执行result函数，result函数引用的random变量是上一级作用域（f2）里面定义的
-    console.log(result());
-    //          要执行result函数，result函数引用的random变量是上一级作用域（f2）里面定义的
-    console.log(result());
+    console.log(result2());
     //          要执行result函数，result函数引用的random变量是上一级作用域（f2）里面定义的
 
+
     //每一次函数执行都会开辟一个独立的作用域
-    function fn(){
+   /* function fn(){
         var age=10;
     }
     fn();//作用域1
-    fn();//作用域2
+    fn();//作用域2*/
     //对同样的函数执行多次，会开辟多个独立作用域，并且这些作用域互不干扰
+
+    //执行getRandom2函数,就会开辟一个独立的作用域(f1执行环境)
+        //在这一次执行过程中,会产生一个随机数10
+    //最终返回内层函数,同时销毁f1作用域. 值还存在?
+
+    //要执行result函数,也会开辟一个独立的作用域
+        //在这一次执行过程中,由于要访问变量random,发现random是上一级
+    //作用域f1中定义的变量
 </script>
 </html>

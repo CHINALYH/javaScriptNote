@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<form action="index.html" method="post">
+    姓:<input type="text" name="firstName">
+    名: <input type="text" name="userName">
+    <input type="submit" value="提交数据">
+</form>
+<script>
+    var express = require('express');
+    var app = express();
+    var queryString = require('querystring');
+    var mysql = require('mysql');
+    var pool = mysql.createPool({
+        host:"localhost",
+        port:3306,
+        database:'mysql',
+        user:'root',
+        password:'123456'
+
+    });
+    app.get('/index.html',function(req,res){
+        res.writeHead(200,{'Content-Type':'text/html'});
+        res.write('<head><meta charset='utf-8' /></head>');
+        var file=fs.createReadStream('index.html');//向客户端返回index.html文件
+        file.pipe(res);//
+    });
+    app.post('/index.html',function(req,res){
+        req.on('data',function(data){
+            var obj=queryString.parse(data.toString());
+            pool.getConnection(function(error,connection){
+                if(error){
+                    res.send('数据库连接失败');
+                }else{
+                    var str;
+                    connection.query('INSERT INTO users SET ?',{username:obj.userName,firstname:obj.firstName}),
+                            function(err,result){
+                                if(err){
+                                    str='在服务器端向mysql数据库中插入数据失败';
+
+                                }else{
+                                    str="在服务器端向mysql数据库插入数据成功";
+                                }
+                                connection.reserve();
+                                res.send(str);
+                            }
+                }
+            })
+        })
+    });
+    app.listen(1337,'127.0.0.1');
+
+    var arr=[
+        {name:"zhangsan",age:18},
+        {name:"lisi",age:17},
+        {name:"wangwu",age:18},
+        {name:"zha",age:10}
+    ];
+    var newArr = arr.map(function(v,i){
+        console.log(v);//arr数组中的四个对象
+        console.log(i);//0 1,2,3
+        console.log(v.name+"=="+v.age);//zhangsan==18
+        return v.name;
+    });
+    console.log(newArr);//['zhangsan','lisi','wangwu','zha']
+</script>
+
+</body>
+</html>
