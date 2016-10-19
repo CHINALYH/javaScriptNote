@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/template">
+    我的名字叫<%=name%>我在传智播客学习,今年<%=age%>岁。
+</script>
+<!--模版引擎 <%=  %> 取值-->
+<script>
+    var templateStr = "我的名字叫<%=name%>我在传智播客学习,今年<%=age%>岁。";
+
+    var data = {
+        name:'小龙龙',
+        age:'18'
+    }
+
+    /*会利用正则来匹配*/
+    //console.log(/<%=\s*([^%>]+\S)\s*%>/.exec(templateStr));
+    /*匹配到 <%=XXX%>  XXX*/
+   /* var match = /<%=\s*([^%>]+\S)\s*%>/.exec(templateStr);
+
+    while(match){
+        templateStr = templateStr.replace(match[0],data[match[1]]);
+        match = /<%=\s*([^%>]+\S)\s*%>/.exec(templateStr);
+    }
+
+    console.log(templateStr);*/
+    /*fn(data,str)*/
+
+    var template = function(name,age){
+        /*var match = /<%=\s*([^%>]+\S)\s*%>/.exec(templateStr);
+        while(match){
+            templateStr = templateStr.replace(match[0],data[match[1]]);
+            match = /<%=\s*([^%>]+\S)\s*%>/.exec(templateStr);
+        }*/
+        //console.log(templateStr);
+        //console.log(this);
+        console.log(name);
+        console.log(age);
+        return templateStr;
+    };
+    /*apply 改变函数的上下文当中的this的指向*/
+    template.apply({name:'xgg'},['xgg','10']);
+
+    /*也是一个方法也是一个函数*/
+   /* var template = new Function('templateStr','data','var match = /<%=\s*([^%>]+\S)\s*%>/.exec(templateStr);while(match){templateStr = templateStr.replace(match[0],data[match[1]]);match = /<%=\s*([^%>]+\S)\s*%>/.exec(templateStr)}console.log(templateStr);');
+    template(templateStr,data);*/
+
+    var template = new Function('name','age','代码块');
+
+
+</script>
+</body>
+</html>

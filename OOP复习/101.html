@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/template">
+    我的名字叫<%=name%>我在传智播客学习,今年<%=age%>岁。
+</script>
+    <!--模版引擎 <%=  %> 取值-->
+    <script>
+        var templateStr = "我的名字叫<%=name%>我在传智播客学习,今年<%=age%>岁。";
+
+        var data = {
+            name:'小龙龙',
+            age:'18'
+        }
+
+        /*会利用正则来匹配*/
+        //console.log(/<%=\s*([^%>]+\S)\s*%>/.exec(templateStr));
+
+        var match = /<%=\s*([^%>]+\S)\s*%>/.exec(templateStr);
+        console.log(match);
+
+        templateStr = templateStr.replace(match[0],data[match[1]]);
+
+        console.log(templateStr);
+
+        match = /<%=\s*([^%>]+\S)\s*%>/.exec(templateStr);
+        console.log(match);
+
+        templateStr = templateStr.replace(match[0],data[match[1]]);
+        console.log(templateStr);
+
+    </script>
+</body>
+</html>

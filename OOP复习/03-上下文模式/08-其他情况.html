@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    var o1={
+        say:function(){
+            console.log(this.name);
+        }
+    };
+    var o2={name:"李晨"};
+    o1.say.call(o2);//遇到需要实现一个功能，该对象上没有这个功能，可以适当的去寻找其他已经拥有该功能的对象，从而借用该功能（借用该方法）
+
+    //console.log(o2.name);//打印出"李晨"
+</script>
+</html>

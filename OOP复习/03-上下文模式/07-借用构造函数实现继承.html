@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    //需要2个构造函数
+    function Person(name,age){
+        this.name=name;
+        this.age=age;
+    }
+
+//    function Student(name,age,number){
+//        this.name=name;
+//        this.age=age;
+//        this.number=number;
+//    }
+
+    function Student(name,age,number){
+        //借用构造函数实现继承
+        Person.call(this,name,age);
+        this.number=number;
+    }
+
+    var s1=new Student("张三",20,666);
+
+    //借用构造函数实现继承：子类构造函数(Student)借用父类构造函数(Person)来完成：给子类的实例添加属性
+
+    //注意条件：由于要借用父类构造函数，所以父类构造函数的功能要对子类对象通用
+
+
+    function f1(name,age,gender){
+        this.name=name;
+        this.age=age;
+        this.gender="男";
+    }
+//    function f2(name,age,length){
+//        this.name=name;
+//        this.age=age;
+//        this.length=length;
+//    }
+
+//    function f2(name,age,length){
+//        f1.call(this,name,age);
+//        this.length=length;
+//    }
+//    var ff2=new f2("范冰冰",16,165);//name age, gender length这4个属性
+    //像上面这种情况，借用f1构造函数，产生了3个属性，污染了f2的对象，所以不建议使用借用构造函数
+</script>
+</html>

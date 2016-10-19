@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div class="box"></div>
+<script type="text/template" id="xjj">
+    <%
+
+        var $ = getObject().jquery;
+
+        var console = getObject().console;
+
+        console.log($);
+
+    %>
+    <ul>
+        <% $.each(list,function(i,item){ %>
+
+        <li>我的名字是：<b><%=item.name%></b>我的年龄是：<b><%=item.age%></b>。</li>
+
+        <%});%>
+    </ul>
+</script>
+<script src="js/jquery.min.js"></script>
+<script src="js/template-native.js"></script>
+<script>
+    /*准备数据*/
+    var data = {
+        list:[
+            {name:'xjj1',age:10},
+            {name:'xjj2',age:12},
+            {name:'xjj3',age:16},
+            {name:'xjj4',age:40}
+        ]
+    }
+
+    /*重点*/
+    /* var getJquery = function(){ return $; } */
+    template.helper('getObject', function () {
+        return {jquery:$,console:console};
+    });
+
+    /*解析数据成html  {model:''}*/
+    var html = template('xjj',data);
+
+    /*怎么样把全局变量传进去？？？*/
+
+
+
+    document.querySelector('.box').innerHTML = html;
+
+</script>
+</body>
+</html>

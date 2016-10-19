@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function foo(){
+        console.log(this.name);
+        return [1,3,5];
+    }
+    foo();//函数调用模式——>foo函数内部的this指向window，返回值由return决定
+    //window.name——>""
+    var f1=foo.call({name:"张三"});//上下文调用模式——>foo函数内部this指向传递的参数
+    //this.name——>"张三"
+    console.log(f1.__proto__);//返回值由return语句决定
+    //——>Array.prototype
+    var f2=new foo();//构造函数调用模式——>foo函数内部this指向构造函数的实例
+    //——>this.name：undefined
+    console.log(f2.__proto__);//——>Array.prototype
+</script>
+</html>
