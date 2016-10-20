@@ -5,6 +5,35 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+
+
+
+    /*上下文模式借用内置方法*/
+    //数组里面的push方法实现的功能,向数组里面添加一个元素
+    //1.借用push方法,向伪数组中添加元素;[].push  Array.prototype
+    //伪数组是没有push方法的,首先我们要能访问到push方法
+    var arr={1:10,2:28};
+    [].push.call(arr,10,20,30);
+    console.log(arr);
+
+    //jQuery对象也是伪数组
+    //向数组中添加元素的方法
+    //push
+    //arr[arr.length]
+
+    //2.借用数组的push方法向数组中添加元素
+    var arr1 = [];
+    var arr2=[10,120,10,20];
+    //需求 将arr2中的元素添加到arr1中
+    [].push.apply(arr1,arr2);//apply方法
+    for(var i=0;i<arr2.length;i++){//之前的方法
+           arr1.push(arr2[i]);
+        }
+
+
+
+</script>
 
 </body>
 </html>

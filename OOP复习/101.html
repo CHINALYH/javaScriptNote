@@ -15,14 +15,14 @@
         var data = {
             name:'小龙龙',
             age:'18'
-        }
-
+        };
         /*会利用正则来匹配*/
         //console.log(/<%=\s*([^%>]+\S)\s*%>/.exec(templateStr));
-
         var match = /<%=\s*([^%>]+\S)\s*%>/.exec(templateStr);
-        console.log(match);
-
+        console.log(match);//['<%=name%>',name,....]
+        //match[1]--->name   match[0]----><%=name%>
+        //data[match[1]]-->'小龙龙'
+        //即将<%=name%> 用 '小龙龙' 进行替换
         templateStr = templateStr.replace(match[0],data[match[1]]);
 
         console.log(templateStr);

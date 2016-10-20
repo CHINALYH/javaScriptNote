@@ -5,6 +5,28 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    //数组的方法经常被伪数组所借用
+
+    //1.需求 将一个伪数组转化为真数组:slice
+    var  arr=[13,12,12,34];
+    arr.slice(1);//从索引1开始截取,到最后一个元素[12,12,34]
+
+    var obj ={0:"范明",1:"小沈阳",length:2};
+    [].slice.call(obj);//返回的是一个数组["范明","小沈阳"];
+    [].slice.call(obj,1);//返回的是一个数组["小沈阳"];
+
+    //2.删除伪数组里面的元素
+    var obj2 ={0:"范明",1:"小沈阳",2:"沈阳",length:2};
+    //删除数组中的第第三个元素,参数从第几个开始删,删除几个
+    var newObj=[].splice.call(obj2, 1, 1);
+    console.log(newObj);//["小沈阳"]
+    console.log(obj2);//Object {0: "范明", 2: "沈阳", length: 1}
+    [].splice.call(obj2,2,1,200,300);//从第三个参数开始是添加的元素
+
+
+
+</script>
 
 </body>
 </html>

@@ -5,6 +5,76 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    /*实现继承的六种方式*/
+    /*1.扩展原型对象的方法实现继承*/
+    function Foo1(){}
+    //在Foo1函数上扩展一个fn1方法,由构造函数创建的对象都具有fn1这个方法
+    Foo1.prototype.fn1=function(){};
+    /*2.替换原型对象实现继承*/
+    function Foo2(){}
+    //给Foo2函数的原型对象重新赋值,注意不要忘记添加constructor属性
+    Foo2.prototype={
+        constructor:Foo2,
+        fn1:function(){},
+        fn2:function(){}
+    };
+    /*3.混入继承*/
+    //已知两个对象,obj2对象继承obj中的属性
+    obj={name:"张三",age:16};
+    obj2={};
+    for(var key in obj){
+        obj2[key]=obj[key];
+    }
+    //封装一个函数
+    function mixin(target,source){
+        for(var key in source){
+            target[key]=source[key];
+        }
+        return target;
+    }
+    //jQuery中的extend方法就使用了混入继承
+
+    /*4.混入+原型继承*/
+    //给Foo4.prototype混入一些新的方法
+    function Foo4(){}
+    mixin(Foo4,{fn1:function(){},fn2:function(){}});
+    //jQuery中的jQuery.fn.extend()就是使用了这个方法
+
+    /*5.经典继承*/
+    var obj5={name:"liying",age:18};
+    function Foo5(){};
+    Foo5.prototype=obj5;
+    //封装一个方法
+    function getFun(obj5){//传入已知的对象
+        function F(){}
+        F.prototype=obj5;
+        return new F();//将继承创建的对象返回
+    }
+    //经典继承在ES5中得到了实现,Object.create()
+
+    /*6.借用构造函数实现继承*/
+    function Foo6(name,age){
+        this.name=name;
+        this.age=age;
+    }
+    function NewFoo(name,age,number){
+        Foo6.call(this,name,age);
+        this.number=number;
+    }
+    //newFoo构造函数借用Foo6构造函数中的属性和方法
+    var obj = new NewFoo("张三",18,10);
+    console.log(obj);//NewFoo {name: "张三", age: 18, number: 10}
+
+
+
+
+
+
+
+
+
+</script>
 
 </body>
 </html>

@@ -5,6 +5,46 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    /*call方法*/
+    function foo() {
+        console.log(this.age);
+    }
+    var obj = {age: 18};
+    foo.call(obj);//18  其中的this指的是obj
+    foo.call(null);//foo函数中的this指向window
+
+    //call方法的第一个参数还可以是数字,字符串,布尔值这些基本的数据类型
+    foo.call(3);//number   数字3转化为对应的基本包装类型Number类型
+
+
+    /*call有实参的情况*/
+    function fn() {
+        //传递的参数在函数内部使用arguments获取
+        for (var i = 0; i < arguments.length; i++) {
+            console.log(arguments[i]);
+        }
+    }
+    //使用call方法来调用fn函数的时候,如果需要传递实参,将实参作为call方法的第二个参数开始依次传递
+    fn.call(null, 1, 2, 3, 4)
+    /*apply有实参的情况*/
+    function fun(){
+        for(var i=0;i<arguments.length;i++){
+            console.log(arguments[i]);
+        }
+    }
+    //使用apply方法来调用fun函数的时候,第二个参数是一个数组对象
+    fun.apply(null,[1,3,5]);
+    //第一个参数:函数内部this的值
+    //[实参1,实参2,实参3]
+
+//    call/aply的异同点
+    //相同点:他们都是Function.prototype对象中定义的方法
+            //第一个参数都表示函数内部的this的值
+    //不同点:在传参的时候,如果给函数传参的时候利用call方法,
+    // apply传递的是数组.call传递的是用逗号分隔的一个一个的参数
+
+</script>
 
 </body>
 </html>

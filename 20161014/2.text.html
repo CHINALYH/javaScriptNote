@@ -5,6 +5,43 @@
     <title>Title</title>
 </head>
 <body>
+<script>
 
+ /*   function fn(){
+        console.log(this.name);
+    }
+    fn.call({name:"zhangsan"});//"zhangsan"
+    console.log();
+    fn();//'' 打印空字符串,此时调用fn其中的的this指的是window对象,
+    //window对象具有name属性,值是一个空字符串*/
+/*    function fn1(){
+        console.log(fn1.caller);//打印的是fn1函数体
+    }
+    function fn2(){
+        fn1();
+    }
+    fn2();
+    console.log(fn1.caller);//null caller方法只能在函数调用的时候获取
+    */
+
+ /*主要明确两点:
+ * 1.返回值:函数调用,对象调用,上下文调用返回值都是由return来决定的.
+ * 2.内部this的指向:
+ *  上下文调用:传入的对象决定
+ *  构造函数调用:实例
+ *  对象调用:指向函数调用的对象
+ * */
+ function foo(){
+     console.log(this.name);
+     return [1,2,3];
+ }
+ foo();//""
+ var f1=foo.call({name:"张三"});//"张三"
+ console.log(f1.__proto__);//上下文模式return返回值由return决定,返回值是一个数组对象 //Array.prototype
+ var f2=new foo();//undefined
+ console.log(f2.__proto__); //Array.prototype
+
+
+</script>
 </body>
 </html>

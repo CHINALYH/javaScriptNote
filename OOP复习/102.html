@@ -20,16 +20,13 @@
         /*会利用正则来匹配*/
         //console.log(/<%=\s*([^%>]+\S)\s*%>/.exec(templateStr));
         /*匹配到 <%=XXX%>  XXX*/
-
+        /*while循环实现将字符串中的所有内容替换掉掉*/
+        //匹配到<%=XX%>
         var match = /<%=\s*([^%>]+\S)\s*%>/.exec(templateStr);
-
-        while(match){
-
-            templateStr = templateStr.replace(match[0],data[match[1]]);
-            match = /<%=\s*([^%>]+\S)\s*%>/.exec(templateStr);
+        while(match){//match有值
+            templateStr = templateStr.replace(match[0],data[match[1]]);//替换
+            match = /<%=\s*([^%>]+\S)\s*%>/.exec(templateStr);//继续匹配<%=XX%>
         }
-
-
         console.log(templateStr);
 
 

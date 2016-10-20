@@ -6,5 +6,23 @@
 </head>
 <body>
 
+<script>
+    function jQuery(){
+        //init是一个构造函数,用于创建jQuery对象,并返回这个对象
+        return new jQuery.prototype.init();
+    }
+    jQuery.prototype={
+        constructor:jQuery,
+        init:function(){
+            return this;
+        },
+        css:function(){}
+    };
+    //init的原型指向jQuery的原型,这样init创建的对象就可以使用jQuery原型中的方法了
+    jQuery.prototype.init.prototype=jQuery.prototype;
+
+
+</script>
+
 </body>
 </html>

@@ -5,6 +5,26 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    /*call apply方法*/
+    var arr = {1:"zhangsan",2:"lisi"};
+    [].slice.call(arr);//将一个伪数组转化为数组
+    console.log(arr);
 
+    var arr1 = [2,4,6];
+    [].push.call(arr1,"zs","ls");//在一个数组中添加新的元素
+    console.log(arr1);
+
+    var startX = 50;
+    var angle=0;
+    console.log(startX+200*Math.cos(angle));
+
+    var arr=[2,4,7,8];
+    function line(arr){
+        console.log(arr[0]);
+    }
+    line(arr);
+
+</script>
 </body>
 </html>

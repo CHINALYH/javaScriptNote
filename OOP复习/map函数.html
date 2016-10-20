@@ -5,6 +5,17 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+var arr=[{name:"zhangsan",age:18},{name:"zhangsan",age:18},
+    {name:"zhangsan",age:18},{name:"zhangsan",age:18}];
+arr.map(function(v,i){
+    console.log("值为"+v+"索引为"+i);
+    console.log("值为"+v.name+"age"+v.age);//取到数据对象中的值
+});
+
+    var arr = [23,16,89,30,67];
+    console.log(Math.max.apply(null,arr));
+</script>
 
 </body>
 </html>

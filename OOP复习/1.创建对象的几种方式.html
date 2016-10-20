@@ -5,6 +5,42 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    /*1.对象字面量*/
+    var obj1 = {
+        name:"zhangsan",
+        age:18
+    };
+    /*2.构造函数创建对象*/
+    function Fun(){}
+    var obj2 = new Fun();
+    /*3.Object创建对象*/
+    var obj3 = new Object();
+    //动态的给obj3添加属性
+    obj3.name="zhangsan";
+    /*4.工厂模式*/
+    //定义一个函数用来创建对象那个,只要调用一个这个函数就创建了以对象
+    function createObj(name){
+        var obj = new Object();
+        obj.name=name;//变化的属性
+        obj.sex="男";//这个方法创建的对象共有的方法
+        obj.say=function(){
+            console.log("说话的方法");
+        }
+    }
+    /*5.原型创建对象*/
+    //所有的属性方法都放在原型中,存在一个问题就是这样创建出来的实例对象是完全一致的
+    function Role(){}
+    Role.prototype.name="zhangsan";
+    Role.prototype.age=18;
+    var  role = new Role();
 
+    /*6.混合方式创建对象构造+原型*/
+    function Person(name){
+        var obj= new Object();
+        obj.name=name;//不同的属性通过构造函数
+    }
+    Person.prototype.sex="男";//共同的不会改变的属性放在原型中
+</script>
 </body>
 </html>

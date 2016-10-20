@@ -5,6 +5,45 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    function fn() {
+        console.log(this.name);
+        return "fn函数的返回值";
+    }
+    /*1.方法调用*/
+    //方法调用,this指向window,相当于是window调用
+    fn();
+    /*2.对象调用*/
+    var obj={name:"zhangsan",fun:function(){console.log(this.name+"zhangsan的方法");}};
+    obj.fun();//函数中的this指向obj
+
+    /*3.构造函数调用*/
+    var fns = new fn();//函数中的this指向函数的实例也就是fns
+    //对于构造函数的返回值问题
+    /*1.如果构造函数没有return语句,返回值默认为实例对象
+    * 2.如果return  基本类型数据;返回值为实例对象
+    * 3.如果return  对象;返回值为return中的对象
+    * */
+    console.log("****************");
+    /*4.上下文调用模式call() apply()*/
+    var obj4={
+        say:function(){
+            console.log("说话的方法");
+        }
+    };
+    var obj5 ={name:"zhangsan"};
+    //obj5对象想使用obj4的say方法
+    obj4.say.call(obj5);
+
+    /*
+    * call(对象,参数1,参数2....)
+    * apply(对象,[参数1,参数2,参数3])
+    * */
+
+
+
+
+</script>
 
 </body>
 </html>

@@ -47,8 +47,13 @@
     var html = template('xjj',data);
 
     /*怎么样把全局变量传进去？？？*/
-
-
+    //在模板中无法使用$这个全局的变量,需要通过Helper方法把$传进去
+    template.helper('getObject',function(){
+        return {
+            jquery:$,
+            console:console
+        }
+    })
 
     document.querySelector('.box').innerHTML = html;
 

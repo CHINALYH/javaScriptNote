@@ -5,6 +5,34 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+
+    //jQuery.fn = jQuery.prototype
+    //实际上 ,jQuery.fn.init 才是 jQuery 真正的构造函数 .这里就是 jQuery 美妙世界的入口.
+    //jQuery通过init来创建jQuery对象,创建的对象又要使用jQuery中定义的方法.所以才会有以下的过程;
+    //jQuery本身是一个对象  传入DOM元素 创建的jQuery对象
+    function jQuery(){
+        return new jQuery.prototype.init();
+        //return new (jQuery.prototype.init)();//把init方法当成构造函数来调用
+        //方法内部的this指向init的实例
+    }
+    jQuery.prototype={
+        constructor:jQuery,
+        init:function(){
+
+            return this;//重写了构造函数的返回值,一个对象.
+        },
+        css:function(){
+            return this;
+        }
+    };
+    //替换原型对象实现继承,这样init的实例都可以访问到css中的方法
+    //jQuery.prototype.init.prototype=jQuery.prototype;
+    //调用,调用方法不会改变调用的对象,实现了连式调用
+    jQuery();//new init();-->返回值是init的实例
+           // .init()//方法调用-->this指向那个init实例
+
+</script>
 
 </body>
 </html>

@@ -46,8 +46,11 @@
     template.apply({name:'xgg'},['xgg','10']);
 
     /*也是一个方法也是一个函数*/
-   /* var template = new Function('templateStr','data','var match = /<%=\s*([^%>]+\S)\s*%>/.exec(templateStr);while(match){templateStr = templateStr.replace(match[0],data[match[1]]);match = /<%=\s*([^%>]+\S)\s*%>/.exec(templateStr)}console.log(templateStr);');
-    template(templateStr,data);*/
+    var template = new Function('templateStr','data',
+   'var match = /<%=\s*([^%>]+\S)\s*%>/.exec(templateStr);while(match)
+   {templateStr = templateStr.replace(match[0],data[match[1]]);
+   match = /<%=\s*([^%>]+\S)\s*%>/.exec(templateStr)}console.log(templateStr);');
+    template(templateStr,data);
 
     var template = new Function('name','age','代码块');
 

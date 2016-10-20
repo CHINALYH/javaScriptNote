@@ -5,6 +5,53 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    //闭包的实现思路,外层函数 内层函数  设置返回内层函数
+    //如果要保存一个数据(外层函数的同一个变量)  让内层函数调用多次
+    //如果要保存多个数据(外层函数的同一个变量)  让外层函数调用多次
 
+    //函数的四种调用模式
+    //上下文模式 call  apply   借用的概念
+    function foo() {
+    }
+    //当foo函数声明好了后无法确定foo函数的身份,只有在调用的时候
+    //才能确定foo的所属;根据foo函数的执行情况和返回结果
+
+    //js中函数由四种不同的调用方式,其中this的指向,返回值由return决定(构造函数特殊)
+    //1.函数调用模式
+    foo();//本质就是使用window对象,调用;指向window
+    //2.方法调用模式,把函数当做对象的方法;this指向obj
+    var obj = {
+        fn: function () {
+        }
+    };
+    obj.fn();
+    obj['fn']();
+    //3构造函数调用 将函数当成构造函数来调用(new);this指向构造函数的实例
+    function Foot(){}
+    new Foot();
+    //构造函数没有return语句,返回的是构造函数的实例
+    //有return,return的内容是一个对象,返回值是return语句的对象;如果return的是基本数据类型,那返回值
+    //还是实例
+    function Foot2(){
+        return [1,2,3];
+    }
+    var foot2= new Foot2();
+    console.log(foot2.__proto__);//Array.prototype  ?Array[0]
+
+    //4.上下文调用模式,根据用户传递的参数产生不同的结果 .this的值由调用者决定;
+    //call/apply 这两个方法都是定义在Function.prototype中的方法,这样任何函数都能访问到这两个方法
+//调用模式,只有函数才能调用
+    function fn(){
+        console.log(this.name);
+    }
+    console.log(fn.call()===Function.prototype.call());//true
+    fn.call({name:"zhangsan"});//zhangsan
+    //call方法的第一个参数指的是本次调用该函数内部this的值
+    fn();//此时this指向window  window有一个name属性是"" 空字符串.
+
+
+
+</script>
 </body>
 </html>

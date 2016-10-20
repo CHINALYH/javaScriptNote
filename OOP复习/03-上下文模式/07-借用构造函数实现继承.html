@@ -8,18 +8,16 @@
 
 </body>
 <script>
-    //需要2个构造函数
+    //J借用构造函数实现继承:需要2个构造函数
     function Person(name,age){
         this.name=name;
         this.age=age;
     }
-
 //    function Student(name,age,number){
 //        this.name=name;
 //        this.age=age;
 //        this.number=number;
 //    }
-
     function Student(name,age,number){
         //借用构造函数实现继承
         Person.call(this,name,age);
