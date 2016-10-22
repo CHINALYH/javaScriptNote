@@ -2,20 +2,163 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c8df0d1-357a-4a2f-a702-1dec34e8829e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20161010/01-歌曲管理/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20161010/01-歌曲管理/css/index.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20161010/01-歌曲管理/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20161010/01-歌曲管理/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20161010/01-歌曲管理/js/jquery1.7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20161010/eval.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20161010/song/css/index2.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20161010/worng.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20161010/worng.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20161010/递归.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20161012/使用构造函数创建属性.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20161012/原型题目.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/复习/mediaQuery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP复习/02.artTemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP复习/03-上下文模式/01-概念.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP复习/03-上下文模式/02-习题.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP复习/03-上下文模式/03-call/apply.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP复习/03-上下文模式/04-有实参的情况.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP复习/03-上下文模式/05-上下文模式借用内置方法.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP复习/03-上下文模式/06-数组的其他方法.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP复习/03-上下文模式/07-借用构造函数实现继承.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP复习/03-上下文模式/08-其他情况.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP复习/03-上下文模式/jquery1.7.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP复习/03-上下文模式/jquery对象.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP复习/101.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP复习/102.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP复习/103.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/code/.vscode/launch.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/code/01.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/code/02.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/code/03.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/code/04.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/code/05.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/code/06.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/code/07.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/code/08.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/code/09.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/code/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/code/frames/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/code/frames/2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/code/frames/3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/code/frames/4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/code/frames/5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/code/frames/6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/code/list.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/code/typings/node/node.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/demo/01.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/demo/02.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/demo/03.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/demo/04.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/demo/05.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/demo/06.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/demo/07.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/demo/08.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/demo/09.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/demo/frames/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/demo/frames/2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/demo/frames/3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/demo/frames/4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/demo/frames/5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/demo/frames/6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/demo/list.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/resources/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/resources/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/resources/2015623125210457.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/resources/2015623125529234.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/resources/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/resources/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/resources/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/resources/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/resources/frames/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/resources/frames/2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/resources/frames/3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/resources/frames/4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/resources/frames/5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/resources/frames/6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/resources/frames_lg/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/resources/frames_lg/2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/resources/frames_lg/3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/resources/frames_lg/4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/resources/frames_lg/5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/01/resources/frames_lg/6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/$require/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/$require/module1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/$require/module2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/01.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/02.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/03.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/04.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/05.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/06.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/07.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/08.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/09.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/11.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/12.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/13.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/code.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/list.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/module/calculator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/module/date.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/module/module1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/module/module2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/module/module3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/module/module4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/module/module5/default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/module/module5/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/module/module5/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/module/module51.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/module/module51.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/module/module51.node" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/node_modules/calculator/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/code/require_dir/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/demo/01.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/demo/02.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/demo/03.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/demo/04.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/demo/05.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/demo/06.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/demo/07.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/demo/08.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/demo/09.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/demo/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/demo/10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/demo/a.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/demo/code.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/02/demo/list.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20161014/demo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/canvas20161016/1.canvas.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/canvas20161016/2.canvas绘图.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/canvas20161016/3.绘制三角形.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/canvas20161016/模板.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161013/JS执行过程.html" afterPath="$PROJECT_DIR$/20161013/JS执行过程.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161013/evel.html" afterPath="$PROJECT_DIR$/20161013/evel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161013/set.html" afterPath="$PROJECT_DIR$/20161013/set.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161013/作用域.html" afterPath="$PROJECT_DIR$/20161013/作用域.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161013/作用域链.html" afterPath="$PROJECT_DIR$/20161013/作用域链.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161013/函数的调用过程.html" afterPath="$PROJECT_DIR$/20161013/函数的调用过程.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161013/创建对象的几种方式.html" afterPath="$PROJECT_DIR$/20161013/创建对象的几种方式.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161013/面试题.html" afterPath="$PROJECT_DIR$/20161013/面试题.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161013/面试题2-1.html" afterPath="$PROJECT_DIR$/20161013/面试题2-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161013/面试题2.html" afterPath="$PROJECT_DIR$/20161013/面试题2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161013copy/1.计算随机数.html" afterPath="$PROJECT_DIR$/20161013copy/1.计算随机数.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161013copy/1.随机数.html" afterPath="$PROJECT_DIR$/20161013copy/1.随机数.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161013copy/2.js的执行的过程.html" afterPath="$PROJECT_DIR$/20161013copy/2.js的执行的过程.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161013copy/2.js的执行过程.html" afterPath="$PROJECT_DIR$/20161013copy/2.js的执行过程.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161013copy/3.词法作用域.html" afterPath="$PROJECT_DIR$/20161013copy/3.词法作用域.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161013copy/3.词法作用域copy.html" afterPath="$PROJECT_DIR$/20161013copy/3.词法作用域copy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161013copy/4.历史遗留问题.html" afterPath="$PROJECT_DIR$/20161013copy/4.历史遗留问题.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161013copy/5.沙箱模式.html" afterPath="$PROJECT_DIR$/20161013copy/5.沙箱模式.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161013copy/5copy.html" afterPath="$PROJECT_DIR$/20161013copy/5copy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161013copy/6.闭包实现缓存.html" afterPath="$PROJECT_DIR$/20161013copy/6.闭包实现缓存.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161014/06-闭包解决面试题.html" afterPath="$PROJECT_DIR$/20161014/06-闭包解决面试题.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161014/1.函数的上下文调用模式.html" afterPath="$PROJECT_DIR$/20161014/1.函数的上下文调用模式.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161014/2.text.html" afterPath="$PROJECT_DIR$/20161014/2.text.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161014/3.html" afterPath="$PROJECT_DIR$/20161014/3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161014/4.html" afterPath="$PROJECT_DIR$/20161014/4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161014/5.callapply使用场景.html" afterPath="$PROJECT_DIR$/20161014/5.callapply使用场景.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161014/5.html" afterPath="$PROJECT_DIR$/20161014/5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161014/7数组的其它方法.html" afterPath="$PROJECT_DIR$/20161014/7数组的其它方法.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20161014/8.借用构造函数实现继承.html" afterPath="$PROJECT_DIR$/20161014/8.借用构造函数实现继承.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP复习/1.创建对象的几种方式.html" afterPath="$PROJECT_DIR$/OOP复习/1.创建对象的几种方式.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP复习/1.继承的6中方式.html" afterPath="$PROJECT_DIR$/OOP复习/1.继承的6中方式.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP复习/3.创建函数调用的几种方式.html" afterPath="$PROJECT_DIR$/OOP复习/3.创建函数调用的几种方式.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP复习/callapply.html" afterPath="$PROJECT_DIR$/OOP复习/callapply.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP复习/map函数.html" afterPath="$PROJECT_DIR$/OOP复习/map函数.html" />
     </list>
     <ignored path="javaScriptNote.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,72 +178,102 @@
     <favorites_list name="javaScriptNote" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="02 get set.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other/03 面向对象进阶/03 对象属性进阶1 get set 权限/02 get set.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="103.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP复习/103.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+            <state relative-caret-position="417">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03 get set 日期.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other/03 面向对象进阶/03 对象属性进阶1 get set 权限/03 get set 日期.html">
+      <file leaf-file-name="apply.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP复习/03-上下文模式/03-call/apply.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="498">
+              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="04 get set 日期 扩展性知识.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other/03 面向对象进阶/03 对象属性进阶1 get set 权限/04 get set 日期 扩展性知识.html">
+      <file leaf-file-name="01-概念.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP复习/03-上下文模式/01-概念.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2268">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="344">
+              <caret line="21" column="54" selection-start-line="10" selection-start-column="4" selection-end-line="21" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="使用构造函数创建属性.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20161012/使用构造函数创建属性.html">
+      <file leaf-file-name="02-习题.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP复习/03-上下文模式/02-习题.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="20" column="17" selection-start-line="18" selection-start-column="3" selection-end-line="20" selection-end-column="17" />
+            <state relative-caret-position="425">
+              <caret line="22" column="50" selection-start-line="10" selection-start-column="3" selection-end-line="22" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="原型题目.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20161012/原型题目.html">
+      <file leaf-file-name="04-有实参的情况.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP复习/03-上下文模式/04-有实参的情况.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="479">
+              <caret line="24" column="69" selection-start-line="10" selection-start-column="3" selection-end-line="24" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="07 replace高级用法.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/other/03 面向对象进阶/08 对象的三个作用进阶/02 对象常用方法bindDOM进阶/07 replace高级用法.html">
+      <file leaf-file-name="05-上下文模式借用内置方法.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP复习/03-上下文模式/05-上下文模式借用内置方法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="207" column="10" selection-start-line="14" selection-start-column="3" selection-end-line="212" selection-end-column="0" />
+            <state relative-caret-position="27">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="38" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01 万物皆变量.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other/03 面向对象进阶/03 对象属性进阶1 get set 权限/01 万物皆变量.html">
+      <file leaf-file-name="06-数组的其他方法.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP复习/03-上下文模式/06-数组的其他方法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-243">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="24" column="56" selection-start-line="10" selection-start-column="3" selection-end-line="24" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="07-借用构造函数实现继承.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OOP复习/03-上下文模式/07-借用构造函数实现继承.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="08-其他情况.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP复习/03-上下文模式/08-其他情况.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery对象.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP复习/03-上下文模式/jquery对象.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -111,41 +284,74 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="php" />
         <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/20161010/歌曲管理/js/index2.html" />
-        <option value="$PROJECT_DIR$/复习/mediaQuery.html" />
-        <option value="$PROJECT_DIR$/20161010/歌曲管理/index2.html" />
-        <option value="$PROJECT_DIR$/20161010/歌曲管理/js/index2.js" />
-        <option value="$PROJECT_DIR$/20161010/歌曲管理/js/index.js" />
-        <option value="$PROJECT_DIR$/20161010/歌曲管理/css/index.less" />
-        <option value="$PROJECT_DIR$/20161010/song/css/index.less" />
-        <option value="$PROJECT_DIR$/20161010/song/index.html" />
+        <option value="$PROJECT_DIR$/20161013copy/4.历史遗留问题.html" />
+        <option value="$PROJECT_DIR$/20161013copy/5.沙箱模式.html" />
+        <option value="$PROJECT_DIR$/20161013copy/6.闭包实现缓存.html" />
+        <option value="$PROJECT_DIR$/20161013/面试题2-1.html" />
+        <option value="$PROJECT_DIR$/复习/newtext.html" />
+        <option value="$PROJECT_DIR$/new.html" />
+        <option value="$PROJECT_DIR$/20161014/demo.php" />
+        <option value="$PROJECT_DIR$/20161014/demo.js" />
+        <option value="$PROJECT_DIR$/20161013copy/1.随机数.html" />
+        <option value="$PROJECT_DIR$/20161013copy/2.js的执行过程.html" />
+        <option value="$PROJECT_DIR$/20161013copy/3.词法作用域copy.html" />
+        <option value="$PROJECT_DIR$/20161013copy/test.html" />
+        <option value="$PROJECT_DIR$/20161013copy/6copy.html" />
+        <option value="$PROJECT_DIR$/20161013copy/5copy.html" />
+        <option value="$PROJECT_DIR$/20161014/06-闭包解决面试题.html" />
         <option value="$PROJECT_DIR$/20161010/01-歌曲管理/index.html" />
-        <option value="$PROJECT_DIR$/20161010/01-歌曲管理/js/index.js" />
-        <option value="$PROJECT_DIR$/20161010/song/js/index.js" />
-        <option value="$PROJECT_DIR$/20161010/song/index2.html" />
-        <option value="$PROJECT_DIR$/20161010/song/css/index2.less" />
-        <option value="$PROJECT_DIR$/20161010/song/js/index2.js" />
-        <option value="$PROJECT_DIR$/20161010/eval.html" />
-        <option value="$PROJECT_DIR$/复习/jdM(oop)/readme" />
-        <option value="$PROJECT_DIR$/20161010/递归.html" />
-        <option value="$PROJECT_DIR$/20161012/对象创建.html" />
-        <option value="$PROJECT_DIR$/20161010/worng.html" />
-        <option value="$PROJECT_DIR$/20161010/worng.js" />
-        <option value="$PROJECT_DIR$/复习/jdM(oop)/index.html" />
-        <option value="$PROJECT_DIR$/复习/jdM(oop)/js/index.js" />
-        <option value="$PROJECT_DIR$/20161012/使用构造函数创建属性.html" />
+        <option value="$PROJECT_DIR$/20161013/面试题.html" />
+        <option value="$PROJECT_DIR$/20161013/面试题2.html" />
+        <option value="$PROJECT_DIR$/20161013/07 拷贝模式/01 拷贝创建对象原理 - 所有人都会.html" />
+        <option value="$PROJECT_DIR$/20161013/08 第三方框架 - 别人写好的经典框架/02 第三方框架 simple.html" />
+        <option value="$PROJECT_DIR$/20161013/08 第三方框架 - 别人写好的经典框架/base2.js" />
+        <option value="$PROJECT_DIR$/20161013/08 第三方框架 - 别人写好的经典框架/simplejavascriptinheritance.js" />
+        <option value="$PROJECT_DIR$/20161014/2.text.html" />
+        <option value="$PROJECT_DIR$/20161014/1.函数的上下文调用模式.html" />
+        <option value="$PROJECT_DIR$/20161014/4.html" />
+        <option value="$PROJECT_DIR$/20161014/5.callapply使用场景.html" />
+        <option value="$PROJECT_DIR$/20161014/7数组的其它方法.html" />
+        <option value="$PROJECT_DIR$/20161014/8.借用构造函数实现继承.html" />
+        <option value="$PROJECT_DIR$/OOP复习/1.继承的6中方式.html" />
+        <option value="$PROJECT_DIR$/OOP复习/3.创建函数的几种方式.html" />
+        <option value="$PROJECT_DIR$/OOP复习/1.创建对象的几种方式.html" />
+        <option value="$PROJECT_DIR$/OOP复习/3.创建函数调用的几种方式.html" />
+        <option value="$PROJECT_DIR$/20161014/3.html" />
         <option value="$PROJECT_DIR$/20161012/原型题目.html" />
+        <option value="$PROJECT_DIR$/OOP复习/常用的一些属性和方法.html" />
+        <option value="$PROJECT_DIR$/20161014/5.html" />
+        <option value="$PROJECT_DIR$/canvas20161016/1.canvas.html" />
+        <option value="$PROJECT_DIR$/canvas20161016/2.canvas绘图.html" />
+        <option value="$PROJECT_DIR$/canvas20161016/3.绘制三角形.html" />
+        <option value="$PROJECT_DIR$/canvas20161016/模板.html" />
+        <option value="$PROJECT_DIR$/OOP复习/callapply.html" />
+        <option value="$PROJECT_DIR$/OOP复习/map函数.html" />
+        <option value="$PROJECT_DIR$/OOP复习/创建10个不同的随机数.html" />
+        <option value="$PROJECT_DIR$/OOP复习/数组map函数.html" />
+        <option value="$PROJECT_DIR$/OOP复习/02.artTemplate.html" />
+        <option value="$PROJECT_DIR$/OOP复习/101.html" />
+        <option value="$PROJECT_DIR$/OOP复习/102.html" />
+        <option value="$PROJECT_DIR$/OOP复习/103.html" />
+        <option value="$PROJECT_DIR$/OOP复习/03-上下文模式/04-有实参的情况.html" />
+        <option value="$PROJECT_DIR$/OOP复习/03-上下文模式/05-上下文模式借用内置方法.html" />
+        <option value="$PROJECT_DIR$/OOP复习/03-上下文模式/07-借用构造函数实现继承.html" />
       </list>
     </option>
   </component>
@@ -156,10 +362,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="132" />
-    <option name="y" value="21" />
-    <option name="width" value="920" />
-    <option name="height" value="717" />
+    <option name="x" value="69" />
+    <option name="y" value="10" />
+    <option name="width" value="1275" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -168,7 +374,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -186,7 +392,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -205,219 +410,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaScriptNote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaScriptNote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="other" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaScriptNote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaScriptNote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="other" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="08 从前后台角度认识整个编程" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaScriptNote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaScriptNote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="other" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="07 作业 改造案例成面向对象版本并连接ajax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaScriptNote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaScriptNote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="other" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="06 面向对象三大特征" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaScriptNote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaScriptNote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="other" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="05 面向对象认识认识JS世界" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaScriptNote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaScriptNote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="other" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="03 面向对象进阶" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaScriptNote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaScriptNote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="other" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="03 面向对象进阶" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="08 对象的三个作用进阶" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaScriptNote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaScriptNote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="other" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="03 面向对象进阶" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="08 对象的三个作用进阶" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="04 使用模板技术改造案例" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaScriptNote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaScriptNote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="other" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="03 面向对象进阶" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="08 对象的三个作用进阶" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="02 对象常用方法bindDOM进阶" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaScriptNote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaScriptNote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="20161012" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nodejs" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="D:\worksoftware\nodejs\node.exe" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\github\javaScriptNote\20161010" />
-      <recent name="F:\github\javaScriptNote\复习" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\github\javaScriptNote\OOP复习" />
+      <recent name="F:\github\javaScriptNote" />
+      <recent name="F:\github\javaScriptNote\20161013" />
       <recent name="F:\github\javaScriptNote\20161010\歌曲管理" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\github\javaScriptNote\OOP复习" />
+      <recent name="F:\github\javaScriptNote\OOP复习\123" />
+      <recent name="F:\github\javaScriptNote\20161014" />
+      <recent name="F:\github\javaScriptNote\20161014\02" />
+      <recent name="F:\github\javaScriptNote\20161014\01" />
     </key>
   </component>
   <component name="RunManager">
@@ -446,6 +468,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -485,24 +513,34 @@
       <workItem from="1476188781823" duration="348000" />
       <workItem from="1476189150621" duration="997000" />
       <workItem from="1476228349505" duration="37397000" />
+      <workItem from="1476314859355" duration="33382000" />
+      <workItem from="1476372864368" duration="755000" />
+      <workItem from="1476426113174" duration="2277000" />
+      <workItem from="1476487462082" duration="36469000" />
+      <workItem from="1476577514296" duration="9078000" />
+      <workItem from="1476661047950" duration="1090000" />
+      <workItem from="1476747983307" duration="1253000" />
+      <workItem from="1476763342102" duration="1183000" />
+      <workItem from="1476774023870" duration="3063000" />
+      <workItem from="1476795651487" duration="1635000" />
+      <workItem from="1476833345083" duration="4640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38742000" />
+    <option name="totallyTimeSpent" value="133567000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="132" y="21" width="920" height="717" extended-state="0" />
-    <editor active="true" />
+    <frame x="69" y="10" width="1275" height="725" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33673468" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19240098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11601307" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -510,6 +548,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -544,323 +583,364 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/20161010/song/js/jquery1.7.js</url>
+          <line>940</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/20161010/1.Function.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20161010/2.title.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20161013/set.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20161013/作用域.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-567">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/复习/01.rem到底是什么单位.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/复习/02.rem适配.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-972">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/复习/mediaQuery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20161010/歌曲管理/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20161010/歌曲管理/js/index2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20161010/歌曲管理/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20161010/歌曲管理/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20161010/歌曲管理/css/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20161010/song/css/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20161010/song/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20161010/01-歌曲管理/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="74" column="48" selection-start-line="74" selection-start-column="48" selection-end-line="74" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20161010/01-歌曲管理/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20161010/song/css/index2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20161010/song/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20161010/song/css/index2.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20161010/song/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="51" column="43" selection-start-line="51" selection-start-column="23" selection-end-line="52" selection-end-column="117" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20161010/song/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20161010/song/js/index2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/复习/jdM(oop)/js/category.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2673">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
-          <caret line="1179" column="0" selection-start-line="1179" selection-start-column="0" selection-end-line="1179" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/20161010/eval.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/复习/jdM(oop)/readme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20161010/递归.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/04 多种方式创建对象/00 引用类型值类型/07 面试题.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-81">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/03 面向对象进阶/03 对象属性进阶1 get set 权限/00 万物皆属性.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/03 面向对象进阶/03 对象属性进阶1 get set 权限/01 万物皆变量.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/03 面向对象进阶/03 对象属性进阶1 get set 权限/04 get set 日期 扩展性知识.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2268">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/03 面向对象进阶/03 对象属性进阶1 get set 权限/03 get set 日期.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20161010/worng.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/20161010/worng.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#278#359#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-162">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/复习/jdM(oop)/index.html">
+    <entry file="file://$PROJECT_DIR$/20161010/worng.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-964">
-          <caret line="51" column="38" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="38" />
+        <state relative-caret-position="-648">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20161007/02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/05 面向对象认识认识JS世界/09 其他知识补充/01 hasownproperty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20161007/04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20161007/03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/05 面向对象认识认识JS世界/09 其他知识补充/03 constructor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1053">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/05 面向对象认识认识JS世界/09 其他知识补充/02 isPrototypeOf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/05 面向对象认识认识JS世界/10 扩充内置对象功能参考/01 扩充原理.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/123/08-其他情况.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/123/07-借用构造函数实现继承.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-972">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/123/06-数组的其他方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/123/03-call/apply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/123/jquery对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/123/05-上下文模式借用内置方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/02-Object.defineProperty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/123/01-概念.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/常用的一些属性和方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="72" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20161014/7数组的其它方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="24" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20161014/06-闭包解决面试题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20161014/4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20161014/8.借用构造函数实现继承.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/123/04-有实参的情况.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas20161016/3.绘制三角形.html" />
+    <entry file="file://$PROJECT_DIR$/canvas20161016/1.canvas.html" />
+    <entry file="file://$PROJECT_DIR$/canvas20161016/2.canvas绘图.html" />
+    <entry file="file://$PROJECT_DIR$/canvas20161016/模板.html" />
+    <entry file="file://$PROJECT_DIR$/20161014/5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20161014/3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/创建10个不同的随机数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/复习/jdM(oop)/js/index.js">
+    <entry file="file://$PROJECT_DIR$/OOP复习/callapply.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="675">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/other/03 面向对象进阶/02 构造函数和属性/03 公有属性私有属性/04 config.html">
+    <entry file="file://$PROJECT_DIR$/OOP复习/map函数.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-          <folding>
-            <element signature="e#1837#1904#0" expanded="false" />
-            <element signature="e#1958#2164#0" expanded="false" />
-            <element signature="e#2294#2903#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/03 面向对象进阶/03 对象属性进阶1 get set 权限/02 get set.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+        <state relative-caret-position="216">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20161012/使用构造函数创建属性.html">
+    <entry file="file://$PROJECT_DIR$/OOP复习/数组map函数.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="20" column="17" selection-start-line="18" selection-start-column="3" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20161012/原型题目.html">
+    <entry file="file://$PROJECT_DIR$/OOP复习/02.artTemplate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="498">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/other/03 面向对象进阶/08 对象的三个作用进阶/02 对象常用方法bindDOM进阶/07 replace高级用法.html">
+    <entry file="file://$PROJECT_DIR$/OOP复习/101.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="207" column="10" selection-start-line="14" selection-start-column="3" selection-end-line="212" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="33" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/102.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/103.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/03-上下文模式/03-call/apply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/03-上下文模式/01-概念.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="21" column="54" selection-start-line="10" selection-start-column="4" selection-end-line="21" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/03-上下文模式/02-习题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="22" column="50" selection-start-line="10" selection-start-column="3" selection-end-line="22" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/03-上下文模式/04-有实参的情况.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="24" column="69" selection-start-line="10" selection-start-column="3" selection-end-line="24" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/03-上下文模式/05-上下文模式借用内置方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="38" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/03-上下文模式/06-数组的其他方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="24" column="56" selection-start-line="10" selection-start-column="3" selection-end-line="24" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/03-上下文模式/08-其他情况.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/03-上下文模式/jquery对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP复习/03-上下文模式/07-借用构造函数实现继承.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding />
         </state>
       </provider>
