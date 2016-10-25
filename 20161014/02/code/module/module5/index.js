@@ -1,1 +1,0 @@
-module.exports = {name:"INDEX文件被加载"};
