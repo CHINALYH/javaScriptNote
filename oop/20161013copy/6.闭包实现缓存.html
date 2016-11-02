@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //闭包实现缓存存储
+    var catchData = (function(){
+        var obj={};//声明一个内部的对象,用来保存缓存数据,键值对
+        return {
+            setCache:function(k,v){
+                obj[k]=v;
+            },
+            getCache:function(k){
+                return obj[k];
+            }
+
+        }
+    })();
+
+
+
+</script>
+
+</body>
+</html>
